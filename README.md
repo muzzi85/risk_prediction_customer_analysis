@@ -19,6 +19,9 @@ The project focuses on:
 
 ---
 
+<img width="1536" height="1024" alt="ChatGPT Image May 24, 2026, 11_48_48 PM" src="https://github.com/user-attachments/assets/8f5cc452-d6fc-472d-be70-b3989fce94d0" />
+
+
 # Repository Architecture
 
 ```text
