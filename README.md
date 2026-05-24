@@ -397,8 +397,14 @@ Build an explainable financial AI platform capable of:
 
 ---
 
-# Author
+⚠️ Copyright & License
+Copyright © 2026 Mustafa Alhamdi. All rights reserved.
 
-Mustafa Alhamdi
+This repository and its contents are provided for educational, research, and portfolio purposes only.
 
-Financial AI & Risk Analytics
+Unauthorized copying, redistribution, commercial usage, or reproduction of this codebase without explicit permission is prohibited.
+
+Third-party libraries and frameworks used in this project remain subject to their respective licenses.
+
+👨‍💻 Author
+Built as an applied AI engineering project exploring:
