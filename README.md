@@ -29,14 +29,14 @@ risk_prediction_customer_analysis/
 │
 ├── api/                    # API services and model endpoints
 ├── dashboard/              # Dashboards and UI applications
-├── data/                   # Raw and processed datasets
+├── data/                   # Raw and processed datasets . Can not be loaded into GitHub but can be found here https://www.kaggle.com/competitions/home-credit-default-risk/data
 ├── explainability/         # SHAP and interpretability utilities
 ├── features/               # Feature engineering logic
-├── governance/             # Validation and governance checks
+├── governance/             # Validation and governance checks TBA
 ├── models/                 # Trained models and pipelines
 ├── monitoring/             # Monitoring and drift utilities
 ├── notebooks/              # Research and experimentation notebooks
-├── orchestration/          # Workflow orchestration
+├── orchestration/          # Workflow orchestration TBA
 ├── tests/                  # Unit and integration tests
 │
 ├── requirements.txt
