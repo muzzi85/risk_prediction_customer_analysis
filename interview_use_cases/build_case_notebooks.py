@@ -140,7 +140,7 @@ md("""# Case Study 2 — Early Warning System
 ## Business question
 **Can we detect deterioration before a customer defaults?**
 
-You are given `data/case2_early_warning.csv.gz` — one row per *existing* customer (someone
+You are given `data/case2_early_warning.csv.xz` — one row per *existing* customer (someone
 already being serviced), with:
 - Application + bureau features (same as Case 1)
 - Behavioural features prefixed `POS_EARLY_*`, `CC_EARLY_*`, `INSTAL_EARLY_*` — these are
@@ -163,7 +163,7 @@ This label was derived from what **actually happened in the 6 months after** tha
 
 md("""## Task 1 — Load & Explore
 
-1. Load `case2_early_warning.csv.gz` and report the distribution of `EARLY_WARNING_SEGMENT`.
+1. Load `case2_early_warning.csv.xz` and report the distribution of `EARLY_WARNING_SEGMENT`.
    Which classes are rare? Why does this matter for model evaluation (which metric(s)
    would you use, and why is overall accuracy a poor choice)?
 2. Many `*_EARLY_*` columns will be missing for a given row (e.g. a customer with no
@@ -173,7 +173,7 @@ md("""## Task 1 — Load & Explore
 code("""import pandas as pd
 import numpy as np
 
-df = pd.read_csv(f"{DATA_DIR}/case2_early_warning.csv.gz")
+df = pd.read_csv(f"{DATA_DIR}/case2_early_warning.csv.xz")
 # TODO: class distribution, missingness analysis
 """),
 

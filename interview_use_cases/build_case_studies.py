@@ -223,7 +223,7 @@ recent_cols = ["POS_RECENT_MAX_DPD_DEF", "POS_RECENT_PCT_DPD_GT0",
                 "INSTAL_RECENT_PCT_LATE", "INSTAL_RECENT_MAX_DAYS_LATE"]
 case2 = case2.drop(columns=recent_cols + ["TARGET"])
 
-case2.to_csv(f"{OUT}/case2_early_warning.csv.gz", index=False, compression="gzip")
+case2.to_csv(f"{OUT}/case2_early_warning.csv.xz", index=False, compression="xz")
 print(f"  -> {case2.shape}")
 print(case2["EARLY_WARNING_SEGMENT"].value_counts())
 
